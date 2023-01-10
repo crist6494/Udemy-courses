@@ -15,7 +15,7 @@
 		background-size: cover;
 	transform: skewY(-6deg);
 
-	& > *{
+	& > *{ //Select the direct child
 		transform: skewY(6deg);
 	}
 }
@@ -24,4 +24,8 @@
 	background-color: $color-grey-light-1;
 	padding: 25rem 0 15rem;
 	margin-top: -10rem;
+}
+.section-stories{
+	position: relative;
+	padding: 15rem 0;
 }
